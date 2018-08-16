@@ -21,4 +21,5 @@ function iLoveTheBeatles(x) {
     emptyBucket.push("I love the Beatles!");
     x++ ;
   } while (x < 15);
+  return emptyBucket
 }
