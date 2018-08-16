@@ -8,8 +8,8 @@ function theBeatlesPlay(musicians, instruments) {
 }
 function johnLennonFacts(facts) {
   var n = 0
-  while (n < facts.length) {
   var emptyBucket = [];
+  while (n < facts.length) {
     n++ ;
     emptyBucket.push(`${facts[n]} !!!`)
   }
