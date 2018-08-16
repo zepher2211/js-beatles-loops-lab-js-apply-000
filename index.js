@@ -7,10 +7,10 @@ function theBeatlesPlay(musicians, instruments) {
     return emptyBucket;
 }
 function johnLennonFacts(facts) {
-  var n = 0
+  var n = 0;
   var emptyBucket = [];
   while (n < facts.length) {
-    emptyBucket.push(`${facts[n]}!!!`)
+    emptyBucket.push(`${facts[n]}!!!`);
     n++ ;
   }
   return emptyBucket;
@@ -20,5 +20,5 @@ function iLoveTheBeatles(x) {
   do {
     emptyBucket.push("I love the Beatles!");
     x++ ;
-  } while (x < 15)
+  } while (x < 15);
 }
