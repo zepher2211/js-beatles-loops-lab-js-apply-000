@@ -10,8 +10,8 @@ function johnLennonFacts(facts) {
   var n = 0
   var emptyBucket = [];
   while (n < facts.length) {
-    n++ ;
     emptyBucket.push(`${facts[n]} !!!`)
+    n++ ;
   }
   return emptyBucket;
 }
