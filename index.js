@@ -18,6 +18,7 @@ function johnLennonFacts(facts) {
 function iLoveTheBeatles(x) {
   var emptyBucket = [];
   do {
-    emptyBucket.push("I love the Beatles!")
+    emptyBucket.push("I love the Beatles!");
+    x++ ;
   }
 }
