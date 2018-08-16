@@ -15,4 +15,9 @@ function johnLennonFacts(facts) {
   }
   return emptyBucket;
 }
-function iLoveTheBeatles(x) 
+function iLoveTheBeatles(x) {
+  var emptyBucket = [];
+  do {
+    emptyBucket.push("I love the Beatles!")
+  }
+}
